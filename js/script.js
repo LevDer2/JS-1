@@ -1,0 +1,13 @@
+const age = 12;
+console.log(typeof(age));
+const name = "Lev";
+console.log(typeof(name));
+const isStudent = true;
+console.log(typeof(isStudent));
+const myString = "How often have I told you that when you create everything impossible, then everything that matters, Why, no matter how incredible it is, must be true?";
+console.log(typeof(myString));
+const a = 2002;
+const myNumber = a + 10;
+console.log(myNumber);
+const myNull = null;
+console.log(typeof(myNull));
