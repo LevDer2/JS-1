@@ -11,3 +11,21 @@ const myNumber = a + 10;
 console.log(myNumber);
 const myNull = null;
 console.log(myNull);
+const userName = prompt("Введіть своє ім'я");
+console.log(userName);
+alert(`Вітаємо, ${userName}!`);
+const userAnswer = confirm("Ви дійсно хочете покинути сторінку?")
+if (userAnswer) {
+    alert("Дякую за підтвердження!")
+}
+else {
+    alert("Увага! Дія може бути небезпечною.");
+    confirm("Ви впевнені, що хочете продовжити?");
+    if (userAnswer) {
+        alert("Дія підтвердженна!");
+    }
+    else {
+        alert ("Дію відмінено!");
+    }
+}
+console.log(userAnswer);
